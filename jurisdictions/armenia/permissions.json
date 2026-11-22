@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:arlis.am)",
+      "WebFetch(domain:www.arlis.am)",
+      "WebFetch(domain:datalex.am)",
+      "WebFetch(domain:www.datalex.am)",
+      "WebFetch(domain:www.parliament.am)",
+      "WebFetch(domain:parliament.am)",
+      "WebFetch(domain:www.e-draft.am)",
+      "WebFetch(domain:e-draft.am)",
+      "WebFetch(domain:www.concourt.am)",
+      "WebFetch(domain:concourt.am)",
+      "WebFetch(domain:www.src.am)",
+      "WebFetch(domain:src.am)",
+      "WebFetch(domain:www.pdpa.am)",
+      "WebFetch(domain:hightech.gov.am)",
+      "WebFetch(domain:www.gov.am)",
+      "WebFetch(domain:gov.am)",
+      "WebFetch(domain:www.e-gov.am)",
+      "WebFetch(domain:www.cba.am)",
+      "WebFetch(domain:competition.am)",
+      "WebFetch(domain:aipo.am)",
+      "WebFetch(domain:e-register.moj.am)",
+      "WebFetch(domain:www.irtek.am)",
+      "WebFetch(domain:docs.eaeunion.org)",
+      "WebFetch(domain:eur-lex.europa.eu)",
+      "Bash(date:*)"
+    ]
+  }
+}

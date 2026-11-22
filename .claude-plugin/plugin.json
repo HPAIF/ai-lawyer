@@ -1,0 +1,22 @@
+{
+  "name": "ai-lawyer",
+  "version": "0.1.0",
+  "description": "AI Team in-house legal research assistant for founders: verifies every law against official sources before using it, reviews contracts, keeps an append-only legal history in a private workspace, watches for legal changes, and improves itself from what it learns. Jurisdiction packs (Armenia included). Not a licensed lawyer.",
+  "author": {
+    "name": "HaykazXP",
+    "url": "https://github.com/HaykazXP"
+  },
+  "homepage": "https://github.com/aiagents-factory/ai-lawyer",
+  "repository": "https://github.com/aiagents-factory/ai-lawyer",
+  "license": "MIT",
+  "keywords": [
+    "ai-team",
+    "legal",
+    "lawyer",
+    "contracts",
+    "compliance",
+    "startup",
+    "founder",
+    "armenia"
+  ]
+}
