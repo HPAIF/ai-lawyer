@@ -19,6 +19,13 @@ In Claude Code:
 /plugin install ai-lawyer@ai-team
 ```
 
+Or install only this member, straight from its repository:
+
+```
+/plugin marketplace add HPAIF/ai-lawyer
+/plugin install ai-lawyer@ai-lawyer
+```
+
 Then, in your project, say **"set up the AI lawyer"**. The `setup` skill creates a private
 `ai-team/` workspace, asks your jurisdiction, and offers permissions, `.gitignore` and scheduled
 runs. Nothing leaves your machine.

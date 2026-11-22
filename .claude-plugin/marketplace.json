@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-lawyer",
+  "description": "Install ai-lawyer directly from its own repository. For the whole AI Team use the HPAIF/ai-team catalog.",
+  "owner": {
+    "name": "HPAIF",
+    "url": "https://github.com/HPAIF"
+  },
+  "plugins": [
+    {
+      "name": "ai-lawyer",
+      "description": "AI Team in-house legal research assistant for founders: verifies every law against official sources before using it, reviews contracts, keeps an append-only legal history in a private workspace, watches for legal changes, and improves itself from what it learns. Jurisdiction packs (Armenia included). Not a licensed lawyer.",
+      "source": "./",
+      "homepage": "https://github.com/HPAIF/ai-lawyer"
+    }
+  ]
+}
