@@ -4,6 +4,10 @@ All notable changes to the AI lawyer. Versions follow semver: patch = fixes and 
 minor = new skill / jurisdiction / workspace files, major = breaking workspace change.
 Entries that need a workspace change list a **Migration** step; `setup` (upgrade mode) applies it.
 
+## 0.2.1 — 2026-11-23
+- Rule "Be concise": shortest answer that keeps all important information (warnings, numbers,
+  dates, sources, decisions); long only when the content needs it.
+
 ## 0.2.0 — 2026-11-22
 - The workspace is found in the project folder **or any parent folder**, so one company-level
   `ai-team/` serves several product repositories (`<company>/projects/<product>/`). The session
