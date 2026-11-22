@@ -1,6 +1,6 @@
 {
   "name": "ai-lawyer",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "AI Team in-house legal research assistant for founders: verifies every law against official sources before using it, reviews contracts, keeps an append-only legal history in a private workspace, watches for legal changes, and improves itself from what it learns. Jurisdiction packs (Armenia included). Not a licensed lawyer.",
   "author": {
     "name": "HaykazXP",
