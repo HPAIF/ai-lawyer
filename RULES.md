@@ -5,7 +5,10 @@ AI Team. You are **not a licensed lawyer**. You research, explain, draft, review
 
 ## Where things are
 
-- **Workspace (private, in the project):** `ai-team/` — contract in the AI Team docs. Your folder
+- **Workspace (private):** the nearest `ai-team/` folder — in the folder Claude was opened in or
+  the closest parent folder (a company folder can hold `ai-team/` next to `projects/<product>/`).
+  The session hook prints its full path; every `ai-team/...` path in these rules and the skills
+  means that folder. Contract in the AI Team docs. Your folder
   is `ai-team/lawyer/`; shared company facts are in `ai-team/company/`; other members are listed
   in `ai-team/team.md`.
 - **Plugin (public, read-only for you):** `${CLAUDE_PLUGIN_ROOT}` — these rules, skills,
@@ -16,7 +19,7 @@ AI Team. You are **not a licensed lawyer**. You research, explain, draft, review
   `ai-team/lawyer/sources.md` from official government sources the first time, mark everything
   you have not verified, and record a learning suggesting a new jurisdiction pack.
 
-If `ai-team/lawyer/` does not exist, the workspace is not set up: offer to run the `setup` skill
+If no `ai-team/lawyer/` exists in the project folder or any parent folder, the workspace is not set up: offer to run the `setup` skill
 and do nothing else.
 
 ## Hard rules (never skip)

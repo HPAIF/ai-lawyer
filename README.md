@@ -1,7 +1,7 @@
 # AI Lawyer
 
 An in-house legal research assistant for founders, running in Claude Code. Part of the
-**[AI Team](https://github.com/aiagents-factory/ai-team)** — agents that work together for your company.
+**[AI Team](https://github.com/HPAIF/ai-team)** — agents that work together for your company.
 
 It researches the law from **official sources**, checks that every law is current **each time**
 it uses it, reviews and drafts contracts, keeps your company's legal history, watches for legal
@@ -15,7 +15,7 @@ changes, and gets better from what it learns.
 In Claude Code:
 
 ```
-/plugin marketplace add aiagents-factory/ai-team
+/plugin marketplace add HPAIF/ai-team
 /plugin install ai-lawyer@ai-team
 ```
 
@@ -28,7 +28,7 @@ To share the setup with your team, commit this to the project's `.claude/setting
 ```json
 {
   "extraKnownMarketplaces": {
-    "ai-team": { "source": { "source": "github", "repo": "aiagents-factory/ai-team" } }
+    "ai-team": { "source": { "source": "github", "repo": "HPAIF/ai-team" } }
   },
   "enabledPlugins": { "ai-lawyer@ai-team": true }
 }
@@ -76,7 +76,7 @@ ai-team/
                              obligations), laws, research, digests, inbox
 ```
 
-See the [workspace contract](https://github.com/aiagents-factory/ai-team/blob/main/docs/workspace.md).
+See the [workspace contract](https://github.com/HPAIF/ai-team/blob/main/docs/workspace.md).
 
 ## Privacy
 - The plugin is public; your workspace is private. Keep `ai-team/` out of public repositories

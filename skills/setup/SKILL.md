@@ -10,6 +10,10 @@ existing file in `ai-team/` — the workspace may already hold real history.
 
 1. **Explain** in two lines what will be created (`ai-team/` private workspace) and that nothing
    leaves the machine.
+   **Location:** if an `ai-team/` already exists in this folder or a parent folder, join it —
+   never create a second one. Otherwise ask where to create it: in this folder (default), or in a
+   parent company folder when this project is one of several products (layout
+   `<company>/ai-team/` next to `<company>/projects/<product>/`).
 2. **Ask** (one question at a time, skip what is already in `ai-team/team.md`):
    - jurisdiction — list the folders in `${CLAUDE_PLUGIN_ROOT}/jurisdictions/` as options, plus
      "other" (generic mode);
