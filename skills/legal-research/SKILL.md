@@ -20,8 +20,10 @@ description: Answer a legal question for the founder's company — compliance, c
 5. **Run `ai-lawyer:verify-law`** for every act/provision you will rely on.
 6. **Check practice** where interpretation matters: higher-court practice, constitutional court,
    regulator clarifications (Tier 2).
-7. **Answer** in the format in `RULES.md` (short answer → law → interpretation with confidence →
-   risks → what to do → verification → heads-up). Tax consequences → hand the exact question to
+7. **Answer** briefly in chat (rule "Be concise": about 5 lines, the conclusion, the key risk and
+   the next step, sources on one line). The full format in `RULES.md` (short answer → law →
+   interpretation with confidence → risks → what to do → verification → heads-up) goes into the
+   memo, not the chat. Tax consequences → hand the exact question to
    the accountant member (see "Team work").
 8. **Save** a memo `ai-team/lawyer/research/R-XXXX-slug.md` (next free number) from
    `${CLAUDE_PLUGIN_ROOT}/templates/research-memo.md` when the question is substantive (anything
